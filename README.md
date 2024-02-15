@@ -29,7 +29,7 @@ Step 1: EC2 instance configuration
 ●	java -Djava.library.path=./DynamoDBLocal_lib/ -jar DynamoDBLocal.jar &
 7) Keep this terminal window open for the rest of the exercise. If the program crashes or you get logged out of the instance, restart the program. Use a new terminal window for the rest of this exercise. 
 
-
+<img src="https://github.com/hisujata/Create-and-Manage-a-Nonrelational-Database-using-AWS-DynamoDB/blob/master/screenshot1.png">
 
 Step 2: CRUD operations on local DynamoDB deployment
 
