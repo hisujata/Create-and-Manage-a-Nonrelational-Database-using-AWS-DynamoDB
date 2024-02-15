@@ -16,13 +16,21 @@ Step 1: EC2 instance configuration
 sudo yum update
 
 sudo yum install python-pip -y
+
 sudo yum install awscli -y
+
 pip install boto3
+
 sudo yum install java-1.8.0-openjdk
+
 mkdir dynamodb-local
+
 cd dynamodb-local
+
 wget http://dynamodb-local.s3-website-us-west-2.amazonaws.com/dynamodb_local_latest.tar.gz
+
 tar xzf dynamodb_local_latest.tar.gz
+
 java -Djava.library.path=./DynamoDBLocal_lib/ -jar DynamoDBLocal.jar &
 
 7) Keep this terminal window open for the rest of the exercise. If the program crashes or you get logged out of the instance, restart the program. Use a new terminal window for the rest of this exercise. 
