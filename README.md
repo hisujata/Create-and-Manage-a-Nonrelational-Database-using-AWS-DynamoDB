@@ -55,7 +55,7 @@ Skip the access key and secret access key fields. Enter the region as us-east-1 
 
 ● aws dynamodb list-tables --endpoint-url http://localhost:8000
 
-<img src="https://github.com/hisujata/Create-and-Manage-a-Nonrelational-Database-using-AWS-DynamoDB/blob/master/Screenshot3.png">
+<img src="">
 
 <img src="https://github.com/hisujata/Create-and-Manage-a-Nonrelational-Database-using-AWS-DynamoDB/blob/master/Screenshot4.png">
 
