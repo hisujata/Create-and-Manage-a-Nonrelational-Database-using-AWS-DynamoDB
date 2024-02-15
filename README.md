@@ -1,32 +1,30 @@
 Create and Manage a Nonrelational Database using AWS DynamoDB
 
-DynamoDB is a NoSQL database, allowing for flexible schema design that can evolve with your application. 
-It provides low-latency performance with near-infinite scaling, so you do not need to worry about performance bottlenecks as your application grows. 
-Create DynamoDB tables with required secondary keys and perform CRUD operations. 
-Use Python and Boto 3, AWS SDK for Python, for ineracting with the DynamoDB APIs.
+DynamoDB is a NoSQL database, allowing for flexible schema design that can evolve with your application. It provides low-latency performance with near-infinite scaling, so you do not need to worry about performance bottlenecks as your application grows. Create DynamoDB tables with required secondary keys and perform CRUD operations. Use Python and Boto 3, AWS SDK for Python, for ineracting with the DynamoDB APIs.
 
 #DynamoDB, #NoSQL, #Python, #Boto3, #EC2
 
 Step 1: EC2 instance configuration
 
 #a. DynamoDB IaaS Setup
+
 1)Create an Amazon Linux 2 EC2 instance with ports open for port numbers 22 and 8000
-
 2) Attach the role created above to the instance
-
 3) SSH into the instance using your preferred SSH client
-
 4) Run the below commands into the terminal once the SSH connection is successful
-●	sudo yum update
-●	sudo yum install python-pip -y
-●	sudo yum install awscli -y
-●	pip install boto3
-●	sudo yum install java-1.8.0-openjdk
-●	mkdir dynamodb-local
-●	cd dynamodb-local
-●	wget http://dynamodb-local.s3-website-us-west-2.amazonaws.com/dynamodb_local_latest.tar.gz
-●	tar xzf dynamodb_local_latest.tar.gz
-●	java -Djava.library.path=./DynamoDBLocal_lib/ -jar DynamoDBLocal.jar &
+
+sudo yum update
+
+sudo yum install python-pip -y
+sudo yum install awscli -y
+pip install boto3
+sudo yum install java-1.8.0-openjdk
+mkdir dynamodb-local
+cd dynamodb-local
+wget http://dynamodb-local.s3-website-us-west-2.amazonaws.com/dynamodb_local_latest.tar.gz
+tar xzf dynamodb_local_latest.tar.gz
+java -Djava.library.path=./DynamoDBLocal_lib/ -jar DynamoDBLocal.jar &
+
 7) Keep this terminal window open for the rest of the exercise. If the program crashes or you get logged out of the instance, restart the program. Use a new terminal window for the rest of this exercise. 
 
 <img src="https://github.com/hisujata/Create-and-Manage-a-Nonrelational-Database-using-AWS-DynamoDB/blob/master/screenshot1.png">
