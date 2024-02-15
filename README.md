@@ -76,9 +76,10 @@ aws dynamodb list-tables --endpoint-url http://localhost:8000
 7) Show the properties of the table using the command below
 aws dynamodb describe-table --table-name orders --endpoint-url http://localhost:8000
 
-<img src="">
-<img src="">
-<img src="">
+<img src="https://github.com/hisujata/Create-and-Manage-a-Nonrelational-Database-using-AWS-DynamoDB/blob/master/Screenshot6.png">
+<img src="https://github.com/hisujata/Create-and-Manage-a-Nonrelational-Database-using-AWS-DynamoDB/blob/master/Screenshot7.png">
+<img src="https://github.com/hisujata/Create-and-Manage-a-Nonrelational-Database-using-AWS-DynamoDB/blob/master/Screenshot8.png">
+
 
 
 Cloud is always pay per use model and all resources/services that we consume are chargeable. After completing the project, make sure to delete each resource created in reverse chronological order if you do not wish to use the resources.
