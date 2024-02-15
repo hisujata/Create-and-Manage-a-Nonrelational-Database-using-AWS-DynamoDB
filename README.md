@@ -37,6 +37,8 @@ java -Djava.library.path=./DynamoDBLocal_lib/ -jar DynamoDBLocal.jar &
 
 <img src="https://github.com/hisujata/Create-and-Manage-a-Nonrelational-Database-using-AWS-DynamoDB/blob/master/screenshot1.png">
 
+<img src="https://github.com/hisujata/Create-and-Manage-a-Nonrelational-Database-using-AWS-DynamoDB/blob/master/Screenshot2.png">
+
 Step 2: CRUD operations on local DynamoDB deployment
 
 #b. Deployment of Python Script
@@ -53,8 +55,13 @@ Skip the access key and secret access key fields. Enter the region as us-east-1 
 
 ● aws dynamodb list-tables --endpoint-url http://localhost:8000
 
-Step 3: Creation of DynamoDB table with secondary index. 
+<img src="https://github.com/hisujata/Create-and-Manage-a-Nonrelational-Database-using-AWS-DynamoDB/blob/master/Screenshot3.png">
 
+<img src="https://github.com/hisujata/Create-and-Manage-a-Nonrelational-Database-using-AWS-DynamoDB/blob/master/Screenshot4.png">
+
+<img src="https://github.com/hisujata/Create-and-Manage-a-Nonrelational-Database-using-AWS-DynamoDB/blob/master/Screenshot5.png">
+
+Step 3: Creation of DynamoDB table with secondary index. 
 
 #c. Deployment of Python Script 
 
@@ -70,6 +77,6 @@ aws dynamodb list-tables --endpoint-url http://localhost:8000
 aws dynamodb describe-table --table-name orders --endpoint-url http://localhost:8000
 
 
-
+Cloud is always pay per use model and all resources/services that we consume are chargeable. After completing the project, make sure to delete each resource created in reverse chronological order if you do not wish to use the resources.
 
 
